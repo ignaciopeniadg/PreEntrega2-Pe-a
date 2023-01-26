@@ -1,0 +1,577 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "montserrat";
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+html {
+    font-size: 62.5%;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background-color: #292928;
+    background-image: url(../img/Home/fondoadornosverdes.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+navbar-toggler {
+    background-color: #5cb2ad;
+    color: white;
+}
+header {
+    padding: 3rem;
+    background-color: #222221;
+    box-shadow: 0rem 0rem 2rem rgb(0, 0, 0, 50%);
+}
+.navbar {
+    background-color: #222221;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.logo__nav {
+    width: 12rem;
+}
+
+.nav-link {
+    color: white;
+    font-weight: 200;
+    font-size: 1.2rem;
+    transition: all 0.2s;
+}
+
+.nav-link:hover {
+    color: #5db2ad;
+    font-weight: 700;
+}
+
+.seccionprincipal {
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seccionprincipal__imagen {
+    width: 30rem;
+    padding: 5rem;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 800;
+    font-size: 3.4rem;
+    line-height: 3.5rem;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: initial;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 3.4rem;
+    line-height: 3.5rem;
+    animation-name: aparecer;
+    animation-iteration-count: initial;
+}
+h3 {
+    text-align: center;
+    font-style: italic;
+    font-size: 2rem;
+    font-weight: 200;
+    animation-name: aparecer;
+    animation-iteration-count: initial;
+}
+
+p {
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 2rem;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 200;
+    animation-name: aparecer;
+    animation-iteration-count: initial;
+}
+
+
+.logosprogramas {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: #222221;
+    padding: 3rem;
+    box-shadow: 0rem 0rem 2rem rgb(0, 0, 0, 50%);
+    animation-name: aparecer;
+    animation-iteration-count: initial;
+}
+
+
+.logosprogramas__abajo {
+display: flex;
+flex-direction: row;
+justify-content:center;
+}
+
+.logosprogramas__arriba {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logosprogramas__arriba__vba {
+    width: 5rem;
+    margin: 2rem;
+}
+.logosprogramas__arriba__excel {
+    width: 7rem;
+    margin: 2rem;
+}
+.logosprogramas__arriba__python {
+    width: 9rem;
+    margin: 2rem;
+}
+.logosprogramas__abajo__googlesheets {
+    width: 11rem;
+    margin: 2rem;
+}
+.logosprogramas__abajo__powerbi {
+    width: 9rem;
+    margin: 2rem;
+}
+
+
+.seccion__personal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seccion__personal__card {
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.seccion__personal__card__imagen {
+    width: 20rem;
+    padding: 3rem;
+
+}
+
+.seccion__personal__card__titulo {
+    padding-top: 1rem;
+    text-decoration: none;
+    list-style: none;
+}
+
+.productos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.card {
+    margin: 5rem;
+    padding: 3rem ;
+    background-color: #222221;
+    box-shadow: 0rem 0rem 2rem rgb(0, 0, 0, 50%);
+
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 35rem;
+    height: 65rem;
+    padding: 3rem;
+} 
+
+
+.card__imagen {
+    width: 25rem;
+}
+
+.card__contenedor-texto {
+    display: flex;
+    width: 25rem;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+}
+
+.card__titulo {
+    margin-top: 2rem;
+    font-weight: 800;
+    font-size: 3rem;
+}
+.card__titulo__cv {
+    padding-top: 3rem;
+}
+.card__descripcion__cv {
+    margin-top: 1rem;
+}
+.card__descripcion {
+    margin-top: 2rem;
+    font-weight: 200;
+    font-size: 1.5rem;
+    
+}
+.boton {
+    background-color: #5cb2ad;
+    border: none;
+    color: white;
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+footer {
+    padding: 3rem;
+    margin-top: 3rem;
+    background-color: #222221;
+    box-shadow: 0rem 0rem 2rem rgb(0, 0, 0, 50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+
+}
+.footer__logo {
+    width: 12rem;
+}
+footer div a img {
+    padding: 1rem;
+}
+
+footer {
+    background-color: #222221;
+}
+
+@media (min-width: 800px) {
+
+    .navbar {
+        background-color: #222221;
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .nav-item {
+        margin-left: 2rem;
+        font-size: 1.5rem;
+    }
+
+    .nav-link {
+        color: white;
+        font-weight: 200;
+        font-size: 1.8rem;
+    }
+    
+    .nav-link:hover {
+        color: #5db2ad;
+        font-weight: 700;
+    }
+
+    .seccionprincipal {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        margin: 3rem;
+        transition: all 0.2s;
+    }
+
+    .seccionprincipal:hover {
+        transform: scale(1.1);
+    }
+    .seccionprincipal__texto h1 {
+        text-align: right;
+        font-size: 5rem;
+        font-weight: 900;
+        line-height: 5rem;
+    }
+    .seccionprincipal__texto p {
+        margin-top: 1rem;
+        text-align: right;
+        font-size: 1.2rem;
+        font-weight: 100;
+        line-height: 2.2rem;
+    }
+    .seccionprincipal__imagen {
+        width: 30rem;
+    }
+    .logosprogramas {
+        transition: all 0.2s;
+    }
+    .logosprogramas:hover {
+        transform: scale(1.1);
+    }
+    
+    .logosprogramas__arriba__vba {
+        width: 8rem;
+        margin: 3rem;
+    }
+    .logosprogramas__arriba__excel {
+        width: 12rem;
+        margin: 4rem;
+    }
+    .logosprogramas__arriba__python {
+        width: 13rem;
+        margin: 2rem;
+    }
+    .logosprogramas__abajo__googlesheets {
+        width: 18rem;
+        margin: 2rem;
+    }
+    .logosprogramas__abajo__powerbi {
+        width: 14rem;
+        margin: 2rem;
+    }
+    
+
+    .seccion__personal {
+        width: 80rem;
+        margin: 0 auto;
+        padding: 3rem;
+        transition: all 0.2s;
+}
+    .seccion__personal:hover {
+        transform: scale(1.1);
+    }
+    
+    .seccion__personal__card {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .seccion__personal__card__imagen {
+        width: 30rem;
+        padding: 3rem;
+        transform: translate(5rem);
+    }
+    
+    .seccion__personal__card__nombre {
+        text-align: left;
+        font-size: 6rem;
+        font-weight: 900;
+        line-height: 6rem;
+    }
+    
+    .seccion__personal__card__titulo {
+        text-align: left;
+        padding-top: 1rem;
+        font-size: 2.6rem;
+    }
+
+    .productos {
+        display: grid;
+        grid-template-columns: auto auto;
+        margin: 0 auto;
+        justify-content: space-around;
+    }
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        width: 37rem;
+        height: 65rem;
+        margin: 3rem;
+        padding: 3rem;
+        transition: all 0.2s;
+    }
+
+    .card:hover {
+        transform: scale(1.1);
+    }
+
+    .boton {
+        cursor: pointer;
+    }
+
+    .card__contenedor-texto {
+        display: flex;
+        width: 30rem;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+@media (min-width: 1200px) {
+    .navbar {
+        background-color: #222221;
+        margin: 0 auto;
+        width: 60%;
+    }
+
+    .seccionprincipal {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        max-width: 100%;
+        padding: 6rem;
+    }
+    .seccionprincipal__texto h1 {
+        text-align: right;
+        font-size: 8rem;
+        font-weight: 900;
+        line-height: 8rem;
+    }
+    .seccionprincipal__texto p {
+        margin-top: 1rem;
+        text-align: right;
+        font-size: 1.8rem;
+        font-weight: 100;
+        line-height: 2.2rem;
+    }
+    .seccionprincipal__imagen {
+        width: 50rem;
+    }
+
+    .logosprogramas {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content:center;
+        align-items: center;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    
+    .logosprogramas__abajo {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    }
+    
+    .logosprogramas__arriba {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .logosprogramas__arriba__vba {
+        width: 8rem;
+        margin: 3rem;
+    }
+    .logosprogramas__arriba__excel {
+        width: 12rem;
+        margin: 4rem;
+    }
+    .logosprogramas__arriba__python {
+        width: 13rem;
+        margin: 2rem;
+    }
+    .logosprogramas__abajo__googlesheets {
+        width: 18rem;
+        margin: 2rem;
+    }
+    .logosprogramas__abajo__powerbi {
+        width: 14rem;
+        margin: 2rem;
+    }
+
+    .seccion__personal {
+        margin: 0 auto;
+        padding: 5rem;
+    }
+    
+    .seccion__personal__card {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        align-content: center;
+        justify-content:space-between;
+    }
+
+    .seccion__personal__card__imagen {
+        width: 40rem;
+        margin: 3rem;
+        transform: translate(18rem);
+        
+    }
+    
+    .seccion__personal__card__nombre {
+        text-align: left;
+        font-size: 8rem;
+        font-weight: 900;
+        line-height: 8rem;
+    }
+    
+    .seccion__personal__card__titulo {
+        text-align: left;
+        padding-top: 1rem;
+        font-size: 3rem;
+    }
+    .productos {
+        display: grid;
+        grid-template-columns: auto auto;
+        margin: 0 auto;
+        justify-content:center
+    }
+    .card {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 70rem;
+        height: 40rem;
+        margin: 3rem;
+        padding: 7rem;
+    }
+    .card__contenedor-texto {
+        display: flex;
+        width: 50rem;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    .card__titulo {
+        text-align: right;
+    }
+    .card__descripcion {
+        text-align: right ;
+    }
+
+    .card__imagen {
+        width: 50rem;
+    }
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
